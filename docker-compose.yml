@@ -1,0 +1,8 @@
+services:
+  dev:
+    image: "swiftlang/swift:nightly-focal"
+    volumes:
+      - C:\Users\malin\SE\Ass\w4:/code
+
+    environment:
+      - USER=malin
